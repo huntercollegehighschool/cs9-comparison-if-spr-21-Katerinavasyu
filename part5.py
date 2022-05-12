@@ -23,3 +23,15 @@ not a month
 '''
 
 #start writing your code below
+
+month = input("Enter a month: ")
+
+if month not in ['January','january', 'February','february','March', 'march', 'April', 'april', 'May', 'may', 'June', 'june' , 'July', 'july', 'August', 'august', 'September', 'september', 'October', 'october','November', 'november','December', 'december' ]:
+  print("Not a month")
+  
+if month == 'January' or month == 'january' or month == 'March' or month == 'march' or month == 'May' or month == 'may' or month == 'July' or month == 'july' or month == 'August' or month == 'august' or month == 'October' or month == 'october' or month == 'December' or month == 'december':
+  print("31 days")
+if month == 'February'or month == 'february':
+  print("28 days, 29 on a leap year")
+if month == 'April' or month == 'april' or month == 'June' or month == 'june' or month == 'September' or month == 'september' or month == 'November' or month == 'november':
+  print("30 days")
